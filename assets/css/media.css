@@ -1,0 +1,67 @@
+@media (min-width: 577px) {
+  header .container i {
+    display: none;
+  }
+
+  .primera .col-3 hr {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  header nav h3 {
+    font-size: 18px;
+  }
+
+  header nav ul {
+    display: none;
+  }
+
+  header .container i {
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  header #banner {
+    width: 120%;
+    margin-left: -12%;
+    padding-right: -12%;
+    overflow: hidden;
+  }
+
+  .primera h3 {
+    font-size: 18px;
+  }
+
+  .primera .texto {
+    line-height: 25px;
+  }
+
+  .primera .col-3 hr {
+    width: 90%;
+    border: 1.5px solid #ff6d32;
+  }
+
+  .primera .col-3 h3,ul {
+    margin-left: 20%;
+  }
+
+  .segunda .container .col-4 {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .segunda .container img {
+    margin-top: 30px;
+  }
+
+  .segunda #descripcion h5 {
+    padding-top: 3%;
+  }
+
+  .segunda #descripcion #button {
+    margin: 1.7% 9%;
+  }
+}
